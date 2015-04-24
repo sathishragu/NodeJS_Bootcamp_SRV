@@ -1,9 +1,31 @@
 # NodeJS_Bootcamp_SRV
-This repository is to submit projects related to Node.js bootcamp.
+This is pre-work done for NodeJs prework.
 
-READ ME FILE
+COMPLETED
 
-This project is to create a simple proxy server and a echo server that echoes the request back to us. The commands used to start the server and test it are mentioned below for each scenario that was tested. The GIF file ’srv-proxy-server-screens.gif’ has the captured screenshots for this testing.
+Time Spent: [4 hrs]
+
+[DONE] Required: Requests to port 8000 are echoed back with the same HTTP headers and body
+
+[DONE] Required: Requests/reponses are proxied to/from the destination server
+
+[DONE] Required: The destination server is configurable via the --host, --port or --url arguments
+
+[DONE] Required: The destination server is configurable via the x-destination-url header
+
+[DONE] Required: Client requests and respones are printed to stdout
+
+[DONE] Required: The --logfile argument outputs all logs to the file specified instead of stdout
+
+[DONE] Optional: The --loglevel argument sets the logging chattiness
+
+[todo] Optional: The --exec argument proxies stdin/stdout to/from the destination program
+
+[todo] Optional: Supports HTTPS
+
+[todo] Optional: -h argument prints CLI API
+
+STEPS TO TEST :
 
 1) To check whether the echo server echoes the request back to us
 
